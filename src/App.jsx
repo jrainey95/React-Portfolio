@@ -1,13 +1,19 @@
+import './App.scss';
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Nav/Navbar";
+import Layout from './components/layout/Index';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Navbar />
-      {/* Add other components and routes here */}
-    </BrowserRouter>
+    <>
+    <Routes>
+    <Route path="/" element={<Layout />} />
+    </Routes>
+
+   
+    
+    </>
   );
 }
 

@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import './index.css'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import './App.scss'
+import { BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import AboutMe from './pages/AboutMe.jsx';
 import Portfolio from './pages/Portfolio.jsx';
@@ -16,10 +16,6 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <AboutMe />,
-      },
-      {
-        path: "/about-me",
         element: <AboutMe />,
       },
       {
@@ -40,6 +36,9 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+   <BrowserRouter>
+   <App />
+   </BrowserRouter>
+    
   </React.StrictMode>,
 )
