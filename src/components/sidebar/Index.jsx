@@ -30,12 +30,12 @@ const Sidebar = () =>{
 <ul>
   <li>
     <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jon-rainey/">
-      <FontAwesomeIcon icon={faLinkedin} color="4d4d4e" />
+      <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
     </a>
     </li>
     <li>
-    <a target="_blank" rel="noreferrer" href="https://github.com/jrainey95/React-Portfolio">
-      <FontAwesomeIcon icon={faGithub} color="4d4d4e" />
+    <a target="_blank" rel="noreferrer" href="https://github.com/jrainey95">
+      <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
     </a>
     </li>
     

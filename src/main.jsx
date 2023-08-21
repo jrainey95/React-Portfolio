@@ -2,7 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './App.scss'
-import { BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router-dom';
+import './index.css';
 
 import AboutMe from './pages/AboutMe.jsx';
 import Portfolio from './pages/Portfolio.jsx';
