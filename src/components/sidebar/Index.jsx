@@ -3,7 +3,8 @@ import { Link, NavLink } from 'react-router-dom'
 import LogoS from '../../assets/images/jrr.png'
 import LogoSubtitle from '../../assets/images/rainey-logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faSuitcase, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Sidebar = () =>{
   return (
@@ -23,9 +24,18 @@ const Sidebar = () =>{
       </NavLink>
 
       <NavLink exact="true" activeClassName="active" className="contact-link" to="/contact">
-        <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+        <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
       </NavLink>
     </nav>
+
+  <ul>
+  <li>
+    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jon-rainey/">
+      <FontAwesomeIcon icon={faLinkedin} color="4d4d4e" />
+    </a>
+  </li>
+</ul>
+
 
 
 
