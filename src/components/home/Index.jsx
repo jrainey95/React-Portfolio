@@ -2,6 +2,7 @@ import LogoTitle from '../../assets/images/rainey-logo.png';
 import { Link } from 'react-router-dom';
 import './index.scss';
 import { useState } from 'react';
+import AnimatedLetters from '../AnimatedLetters';
 
 const Home = () => {
   const [letterClass, setLetterClass] =useState('text-animate');
@@ -14,16 +15,18 @@ const Home = () => {
         <h1>Hello, <br/> I'm 
         Jonathan Rainey
         {/* <img src={LogoTitle} alt="developer" /> */}
-        {/* <AnimatedLetters letterClass={letterClass}
+        <AnimatedLetters letterClass={letterClass}
         strArray={nameArray}
         idx={15} 
         />
-        <br/> */}
+        <br/>
         A Web Developer
         </h1>
         <h2>Frontend Developer / Javascript / CSS / React </h2>
         <br/> 
         <h2>Backend Developer / MongoDB / MySQL </h2>
+        <br/>
+        <h3>Outside of Coding, you can find me running, gaming, or reading at the beach.</h3>
         <Link to='/contact' className='flat-button'>Contact Me </Link>
       </div>
     </div>
