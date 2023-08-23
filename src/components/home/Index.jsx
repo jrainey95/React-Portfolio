@@ -14,10 +14,16 @@ const Home = () => {
         <h1>Hello, <br/> I'm 
         Jonathan Rainey
         {/* <img src={LogoTitle} alt="developer" /> */}
-        <br/>
+        {/* <AnimatedLetters letterClass={letterClass}
+        strArray={nameArray}
+        idx={15} 
+        />
+        <br/> */}
         A Web Developer
         </h1>
-        <h2>Frontend Developer / Javascript / React </h2>
+        <h2>Frontend Developer / Javascript / CSS / React </h2>
+        <br/> 
+        <h2>Backend Developer / MongoDB / MySQL </h2>
         <Link to='/contact' className='flat-button'>Contact Me </Link>
       </div>
     </div>
