@@ -1,45 +1,39 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './App.scss'
-import { BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router-dom';
+// import React from 'react'
+// import ReactDOM from 'react-dom'
+// import reportWebVitals from './reportWebVitals'
+// import { BrowserRouter } from 'react-router-dom'
+// import App from './App'
+// import './index.css'
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <BrowserRouter>
+//       <App />
+//     </BrowserRouter>
+//     ,
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// )
+
+// // If you want to start measuring performance in your app, pass a function
+// // to log results (for example: reportWebVitals(console.log))
+// // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+// reportWebVitals()
+
+import React from 'react';
+import { createRoot } from 'react-dom/client'; 
+import App from './App.jsx';
+import { BrowserRouter } from 'react-router-dom';
+
+import './App.scss';
 import './index.css';
 
-import AboutMe from './pages/AboutMe.jsx';
-import Portfolio from './pages/Portfolio.jsx';
-import Contact from './pages/Contact.jsx';
+const root = createRoot(document.getElementById('root')); // Use createRoot
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-    errorElement: "",
-    children: [
-      {
-        index: true,
-        element: <AboutMe />,
-      },
-      {
-        path: "/porfolio",
-        element: <Portfolio />,
-      },
-      {
-        path: "/contact",
-        element: <Contact />,
-      },
-    
-    ],
-  },
-]);
-
-
-
-
-ReactDOM.createRoot(document.getElementById('root')).render(
+root.render(
   <React.StrictMode>
-   <BrowserRouter>
-   <App />
-   </BrowserRouter>
-    
-  </React.StrictMode>,
-)
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
+);
