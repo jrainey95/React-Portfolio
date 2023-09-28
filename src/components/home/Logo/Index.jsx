@@ -1,5 +1,5 @@
 import './index.scss';
-import mer from '../../../assets/images/me2.png';
+import mer from '../../../assets/images/ujjj.png';
 const Logo = () => {
   return (
     <div className='logo-container'>

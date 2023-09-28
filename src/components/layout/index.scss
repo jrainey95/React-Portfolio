@@ -40,7 +40,8 @@
   animation-delay: 1s;
 }
 
-.about-page {
+.about-page, 
+.contact-page {
   .text-zone {
     position: absolute;
     left: 10%;
@@ -51,6 +52,7 @@
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     width: 35%;
+    margin-left: 20px;
     vertical-align: middle;
     display: table-cell;
     max-height: 90%;
@@ -60,28 +62,18 @@
       font-family: 'Coolvetica';
       color:#00aeff;
       font-weight: 400;
+      margin-left: 20px;
       margin-top: -10px;
         left: -10px;
         opacity: 0.6;
         line-height: 18px;
       }
       
-      &:after {
-        content: '<h1/>';
-        font-family: 'La Belle Aurore', cursive;
-        color: #ffd700;
-        font-size: 18px;
-        line-height: 18px;
-        position: absolute;
-        left: -30px;
-        bottom: -20px;
-        margin-left: 20px;
-        opacity: 0.6;
-      }
+      
       }
       
       p {
-        font-size: 15px;
+        font-size: 20px;
         color: #fff;
         font-family: sans-serif;
         font-weight: 100;

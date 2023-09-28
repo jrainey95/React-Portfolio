@@ -1,6 +1,6 @@
 import React from 'react';
 import "./index.scss";
-import Mer from "../../assets/images/mer.jpg";
+import Mer from "../../assets/images/me.jpg";
 
 const About = () => {
   return (
@@ -20,7 +20,7 @@ const About = () => {
             height: 'auto',   // Maintain the aspect ratio
             display: 'block', // Remove any extra spacing around the image
             float: 'right',
-            borderRight: '2px solid #333'   // Move the image to the right
+            borderRight: '100px solid #333'   // Move the image to the right
           }}
         />
       </div>
