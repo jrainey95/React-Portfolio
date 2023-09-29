@@ -1,7 +1,7 @@
 # React + Vite
 
 ## LINKS
-https://jrainey.netlify.app/contact
+[https://jrainey.netlify.app/contact](https://jrainey.netlify.app)
 
 
 
