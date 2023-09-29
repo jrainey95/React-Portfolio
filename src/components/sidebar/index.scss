@@ -98,7 +98,15 @@ body {
                 content: 'CONTACT';
         
               }
+                           
             }
+                        a.projects-link {
+                          &:after {
+                            content: 'PROJECTS';
+            
+                          }
+                        }
+                        
             
       a.active {
         svg {

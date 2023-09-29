@@ -1,0 +1,71 @@
+
+.projects {
+  background: #273136;
+  padding: 10px;
+  margin-left: 150px;
+  margin-right: 25px;
+  text-align: center;
+}
+
+.title {
+  font-size: 44px;
+  color: #00aeff;
+}
+
+.p-text {
+  font-size: 24px;
+}
+
+h2 {
+  
+  color: #000000;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* Create a 4-column grid */
+  gap: 50px;
+  
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.details-container {
+  background: #273136;
+  border: 1px solid #ffffff;
+  padding: 20px;
+  text-align: center;
+  height: 100%;
+  /* Set a fixed height for project containers */
+  display: flex;
+  flex-direction: column;
+}
+
+.project-img {
+  max-width: 100%;
+  height: auto;
+  max-height: 150px;
+  /* Set a maximum height for the images */
+  object-fit: cover;
+  /* Maintain image aspect ratio and cover the container */
+}
+
+.project-title {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.project-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: auto;
+  /* Push buttons to the bottom of the container */
+}
+
+.project-btn:hover {
+  background-color: #0056b3;
+}
