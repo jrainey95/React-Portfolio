@@ -92,7 +92,7 @@ const Contact = () => {
                     type="submit"
                     className="flat-button"
                     value="SEND"
-                    disabled={isSubmitting} // Disable the button while submitting
+                    disabled={isSubmitting} 
                   />
                 </li>
               </ul>
